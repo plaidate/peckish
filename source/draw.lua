@@ -306,7 +306,7 @@ function Draw.hud()
     end
     gfx.drawTextAligned("*" .. G.score .. "*", 396, 3, kTextAlignment.right)
     if #G.chicks > 0 then
-        gfx.drawTextAligned("x" .. string.format("%.2f", 1 + 0.25 * #G.chicks),
+        gfx.drawTextAligned("x" .. string.format("%.2f", Game.mult()),
             396, 20, kTextAlignment.right)
     end
     local td = G.tide

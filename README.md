@@ -2,7 +2,16 @@
 
 *A killdeer on the tideline.* A top-down beach-foraging game for Playdate.
 
+**[Read the player's manual →](MANUAL.md)**
+
 ![screenshot](screenshot.png)
+
+## Play it
+
+Grab the prebuilt `Peckish.pdx` from the [Releases](../../releases) page
+(or `dist/` in this repo) — no toolchain needed. Sideload it to a Playdate
+at <https://play.date/account/sideload/>, or unzip and open it in the
+Playdate Simulator that ships with the [Playdate SDK](https://play.date/dev/).
 
 You are a killdeer — a little shorebird that sprints, stops, and pecks.
 Worms surface in the sand, richest in the wet band a receding wave leaves

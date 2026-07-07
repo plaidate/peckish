@@ -16,7 +16,6 @@ function Waves.reset()
         reach = C.SHORE_X,
         sneaker = false,
         wetX = C.SHORE_X - 24,     -- left extent of the wet band
-        count = 0,
         nextIn = C.WAVE_FIRST,
     }
 end
@@ -65,7 +64,6 @@ function Waves.update(dt)
         if k >= 1 then
             td.state = "calm"
             td.t = 0
-            td.count = td.count + 1
             td.wetX = td.reach
             td.nextIn = C.WAVE_GAP_MIN + math.random() * C.WAVE_GAP_VAR - G.diff * 3
             Harness.count("wavesSurvived")
