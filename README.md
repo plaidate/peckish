@@ -1,5 +1,7 @@
 # Peckish
 
+> Part of **[plAIdate](https://plaidate.github.io)** — AI-built 1-bit games, ports, and engines for the Playdate.
+
 *A killdeer on the tideline.* A top-down beach-foraging game for Playdate.
 
 **[Read the player's manual →](MANUAL.md)**
